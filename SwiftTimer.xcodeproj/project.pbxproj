@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		7A43F6BE2CD52FC300D50E2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A43F6A52CD52FC100D50E2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A43F6AC2CD52FC100D50E2D;
+			remoteInfo = SwiftTimer;
+		};
+		7A43F6C82CD52FC300D50E2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A43F6A52CD52FC100D50E2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A43F6AC2CD52FC100D50E2D;
+			remoteInfo = SwiftTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A43F6AD2CD52FC100D50E2D /* SwiftTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A43F6BD2CD52FC300D50E2D /* SwiftTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A43F6C72CD52FC300D50E2D /* SwiftTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		7A43F6AF2CD52FC100D50E2D /* SwiftTimer */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SwiftTimer;
+			sourceTree = "<group>";
+		};
+		7A43F6C02CD52FC300D50E2D /* SwiftTimerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SwiftTimerTests;
+			sourceTree = "<group>";
+		};
+		7A43F6CA2CD52FC300D50E2D /* SwiftTimerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SwiftTimerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A43F6AA2CD52FC100D50E2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A43F6BA2CD52FC300D50E2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A43F6C42CD52FC300D50E2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A43F6A42CD52FC100D50E2D = {
+			isa = PBXGroup;
+			children = (
+				7A43F6AF2CD52FC100D50E2D /* SwiftTimer */,
+				7A43F6C02CD52FC300D50E2D /* SwiftTimerTests */,
+				7A43F6CA2CD52FC300D50E2D /* SwiftTimerUITests */,
+				7A43F6AE2CD52FC100D50E2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A43F6AE2CD52FC100D50E2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A43F6AD2CD52FC100D50E2D /* SwiftTimer.app */,
+				7A43F6BD2CD52FC300D50E2D /* SwiftTimerTests.xctest */,
+				7A43F6C72CD52FC300D50E2D /* SwiftTimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A43F6AC2CD52FC100D50E2D /* SwiftTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A43F6D12CD52FC300D50E2D /* Build configuration list for PBXNativeTarget "SwiftTimer" */;
+			buildPhases = (
+				7A43F6A92CD52FC100D50E2D /* Sources */,
+				7A43F6AA2CD52FC100D50E2D /* Frameworks */,
+				7A43F6AB2CD52FC100D50E2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				7A43F6AF2CD52FC100D50E2D /* SwiftTimer */,
+			);
+			name = SwiftTimer;
+			packageProductDependencies = (
+			);
+			productName = SwiftTimer;
+			productReference = 7A43F6AD2CD52FC100D50E2D /* SwiftTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A43F6BC2CD52FC300D50E2D /* SwiftTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A43F6D42CD52FC300D50E2D /* Build configuration list for PBXNativeTarget "SwiftTimerTests" */;
+			buildPhases = (
+				7A43F6B92CD52FC300D50E2D /* Sources */,
+				7A43F6BA2CD52FC300D50E2D /* Frameworks */,
+				7A43F6BB2CD52FC300D50E2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A43F6BF2CD52FC300D50E2D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				7A43F6C02CD52FC300D50E2D /* SwiftTimerTests */,
+			);
+			name = SwiftTimerTests;
+			packageProductDependencies = (
+			);
+			productName = SwiftTimerTests;
+			productReference = 7A43F6BD2CD52FC300D50E2D /* SwiftTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7A43F6C62CD52FC300D50E2D /* SwiftTimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A43F6D72CD52FC300D50E2D /* Build configuration list for PBXNativeTarget "SwiftTimerUITests" */;
+			buildPhases = (
+				7A43F6C32CD52FC300D50E2D /* Sources */,
+				7A43F6C42CD52FC300D50E2D /* Frameworks */,
+				7A43F6C52CD52FC300D50E2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A43F6C92CD52FC300D50E2D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				7A43F6CA2CD52FC300D50E2D /* SwiftTimerUITests */,
+			);
+			name = SwiftTimerUITests;
+			packageProductDependencies = (
+			);
+			productName = SwiftTimerUITests;
+			productReference = 7A43F6C72CD52FC300D50E2D /* SwiftTimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A43F6A52CD52FC100D50E2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					7A43F6AC2CD52FC100D50E2D = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					7A43F6BC2CD52FC300D50E2D = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 7A43F6AC2CD52FC100D50E2D;
+					};
+					7A43F6C62CD52FC300D50E2D = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 7A43F6AC2CD52FC100D50E2D;
+					};
+				};
+			};
+			buildConfigurationList = 7A43F6A82CD52FC100D50E2D /* Build configuration list for PBXProject "SwiftTimer" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A43F6A42CD52FC100D50E2D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7A43F6AE2CD52FC100D50E2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A43F6AC2CD52FC100D50E2D /* SwiftTimer */,
+				7A43F6BC2CD52FC300D50E2D /* SwiftTimerTests */,
+				7A43F6C62CD52FC300D50E2D /* SwiftTimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A43F6AB2CD52FC100D50E2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A43F6BB2CD52FC300D50E2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A43F6C52CD52FC300D50E2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A43F6A92CD52FC100D50E2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A43F6B92CD52FC300D50E2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A43F6C32CD52FC300D50E2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A43F6BF2CD52FC300D50E2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A43F6AC2CD52FC100D50E2D /* SwiftTimer */;
+			targetProxy = 7A43F6BE2CD52FC300D50E2D /* PBXContainerItemProxy */;
+		};
+		7A43F6C92CD52FC300D50E2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A43F6AC2CD52FC100D50E2D /* SwiftTimer */;
+			targetProxy = 7A43F6C82CD52FC300D50E2D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7A43F6CF2CD52FC300D50E2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7A43F6D02CD52FC300D50E2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A43F6D22CD52FC300D50E2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftTimer/Preview Content\"";
+				DEVELOPMENT_TEAM = TE487R478V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MAD9137.SwiftTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A43F6D32CD52FC300D50E2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftTimer/Preview Content\"";
+				DEVELOPMENT_TEAM = TE487R478V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MAD9137.SwiftTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7A43F6D52CD52FC300D50E2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TE487R478V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MAD9137.SwiftTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftTimer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftTimer";
+			};
+			name = Debug;
+		};
+		7A43F6D62CD52FC300D50E2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TE487R478V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MAD9137.SwiftTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftTimer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftTimer";
+			};
+			name = Release;
+		};
+		7A43F6D82CD52FC300D50E2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TE487R478V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MAD9137.SwiftTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftTimer;
+			};
+			name = Debug;
+		};
+		7A43F6D92CD52FC300D50E2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TE487R478V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MAD9137.SwiftTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftTimer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A43F6A82CD52FC100D50E2D /* Build configuration list for PBXProject "SwiftTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A43F6CF2CD52FC300D50E2D /* Debug */,
+				7A43F6D02CD52FC300D50E2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A43F6D12CD52FC300D50E2D /* Build configuration list for PBXNativeTarget "SwiftTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A43F6D22CD52FC300D50E2D /* Debug */,
+				7A43F6D32CD52FC300D50E2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A43F6D42CD52FC300D50E2D /* Build configuration list for PBXNativeTarget "SwiftTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A43F6D52CD52FC300D50E2D /* Debug */,
+				7A43F6D62CD52FC300D50E2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A43F6D72CD52FC300D50E2D /* Build configuration list for PBXNativeTarget "SwiftTimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A43F6D82CD52FC300D50E2D /* Debug */,
+				7A43F6D92CD52FC300D50E2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A43F6A52CD52FC100D50E2D /* Project object */;
+}
